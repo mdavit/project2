@@ -73,6 +73,13 @@ class ViewController: UIViewController {
             present(controller, animated: true, completion: nil)
         }
         
+    
+    
+    
+    
+    
+    
+    
         @IBAction func openThirdView(_ sender: Any) {
 //            self.performSegue(withIdentifier: "third", sender: sender)
             let controller2 = storyboard?.instantiateViewController(identifier: "ThirdVC") as! ThirdViewController
